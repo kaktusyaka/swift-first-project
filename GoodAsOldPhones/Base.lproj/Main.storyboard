@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Product View Controller-->
         <scene sceneID="lBK-lT-swa">
             <objects>
-                <viewController id="K7u-7h-mDs" sceneMemberID="viewController">
+                <viewController id="K7u-7h-mDs" customClass="ProductViewController" customModule="GoodAsOldPhones" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fei-nU-xRe"/>
                         <viewControllerLayoutGuide type="bottom" id="XTu-qO-6O6"/>
