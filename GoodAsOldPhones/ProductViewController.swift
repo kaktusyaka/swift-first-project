@@ -9,7 +9,9 @@
 import UIKit
 
 class ProductViewController: UIViewController {
-
+    // MARK: Properties
+    
+    @IBOutlet weak var productNameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

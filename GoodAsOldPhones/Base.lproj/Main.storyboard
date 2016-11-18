@@ -12,7 +12,7 @@
         <!--Product View Controller-->
         <scene sceneID="lBK-lT-swa">
             <objects>
-                <viewController id="K7u-7h-mDs" customClass="ProductViewController" customModule="GoodAsOldPhones" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="K7u-7h-mDs" customClass="ProductViewController" customModule="GoodAsOldPhones" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fei-nU-xRe"/>
                         <viewControllerLayoutGuide type="bottom" id="XTu-qO-6O6"/>
@@ -40,6 +40,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="productNameLabel" destination="fVu-BH-w20" id="MZa-4u-Vfz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aw7-je-lK3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
