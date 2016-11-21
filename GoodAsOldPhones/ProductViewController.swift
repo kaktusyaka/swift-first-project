@@ -9,13 +9,15 @@
 import UIKit
 
 class ProductViewController: UIViewController {
-    // MARK: Properties
     
     @IBOutlet weak var productNameLabel: UILabel!
+    @IBOutlet weak var productImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        productNameLabel.text = "Desk Phone 1937"
+        productImageView.image = #imageLiteral(resourceName: "phone-fullscreen3")
     }
 
 
