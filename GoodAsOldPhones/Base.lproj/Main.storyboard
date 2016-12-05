@@ -169,6 +169,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="K7u-7h-mDs" kind="show" identifier="ShowProduct" id="e7D-gE-XiI"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
