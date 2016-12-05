@@ -19,6 +19,9 @@ class ProductsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ProductCell", for: indexPath)
         
+        cell.textLabel?.text = "Hello Friend."
+        cell.imageView?.image = UIImage(named: "image-cell1")
+        
         return cell
     }
     
